@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ad95fe6392.js" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+<!---------------------------------------------Header And Logo--------------------------------->
+<body>
+    <div id="header">
+    <div class="container">
+      <nav>
+    <img src="images/logo.png" class="logo" alt="logo"  >
+    <ul id="sidemenu">
+    <li><a href="#header">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#Skills">Skills</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <i class="fa-solid fa-xmark"onclick="closemenu()"></i>
+    </ul>
+
+    <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+   
+     </nav>
+  
+      
+      <div class="header-text">
+        <p><span>Sujan </span> Kumar</p>
+        <h3>Self-taught Front End Developer   <br> School-taught Software  Engineer </h3>
+      </div>
+    </div>
+    </div>
+    <!-------------------------------------------------------About-------------------------------------------------------------->
+    <div id="about">
+     <div class="container">
+
+      <div class="row">
+      <div class="about-col-1">
+      <img src="images/user.png" alt="user">
+
+
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        
+      <p>Ambitious website composition proficient looking for a potential open door as a front
+        end designer, searching for an entry level position in a reputed organization, where I
+        can apply major areas of strength for me examination and specialized Skills. To
+        Expand oral relational abilities, societies and to work successfully inside different
+        environments. To secure extra relational correspondence and association abilities.</p>
+           <div class="tab-titles" >
+            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+           </div>
+           <div class="tab-contents active-tab" id="skills">
+            <ul>
+           <li><span>UI/UX</span><br>Desiging Web/App interfaces</li>
+           <li><span>Web Developement</span><br> Web App developement</li>
+           <li><span>App Developement</span><br>Building Android pps</li>
+
+            </ul>
+           </div>
+           <div class="tab-contents" id="experience">
+            <ul>
+           <li><span>No Experience</span><br></li>
+           <li><span></span><br> </li>
+           <li><span></span><br></li>
+
+            </ul>
+           </div>
+           <div class="tab-contents" id="education">
+            <ul>
+           
+           <li><span>MTech integrated Computer Science : 2020-25</span><br> Vellore Institute of Technology</li>
+           <li><span>2018-2020</span><br>Completed Intermediate From Narayaan Jr College</li>
+           <li><span>Grade10-2018</span><br>Completed Schooling from St.Paul's High School</li>
+
+            </ul>
+           </div> 
+      </div>
+     </div>
+
+    </div>
+
+    
+    <!-------------------------------------------------------Skills--------------------------------------------------->
+    <div id="Skills">
+      <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="Skills-list">
+
+          
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <ul>
+              <li>HTML 5 ,CSS ,JavaScript</li>
+              <li>React JS ,Angular JS,Reactive Native</li>
+            </ul>
+            <a href="">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-android"></i>
+            <h2><UI>
+            <UX></UX> App Design</h2>
+            <ul>
+              <li>Java With OOPS </li>
+              <li>Foundations,UI,Testing,Security</li>
+            </ul>
+            <a href="">Learn More</a>
+          </div>
+          
+        
+          <div>
+            <i class="fa-brands fa-python"></i>
+            <h2>PYTHON</h2>
+            <ul>
+              <li>Data Structures</li>
+              <li>Mattplotlib,Numpy,Pandas</li>
+              <li>Django</li>
+            </ul>
+            <a href="">Learn More</a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!----------------------------------------------------Portfolio------------------------------------------------>
+    <div id="portfolio">
+    <div class="container">   
+      <div id="container">
+          <h1 class ="sub-title">My Work</h1>
+          <div class="work-list">
+            <div class="work">
+              
+        <img src="images/school.jpg" >
+        <div class="layer">
+          <h3>School Management System</h3>
+          <p>  Made a backend School Management System <br>using Python and MYSQL</p>
+        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        </div>
+      
+      <div class="work">
+        <img src="images/abroad.png" alt="abroad" >
+        
+        <div class="layer">
+          <h3>OverSeas Educational Consultancy</h3>
+          <p> Made A Consultancy  software as my Intership  <br>project using JSP and ORACLE</p>
+        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        </div>
+        
+      
+      <div class="work">
+        <img src="images/doctor.jpeg" alt="abroad" >
+
+        <div class="layer">
+          <h3>Pharmacy Management System</h3>
+          <p> Made a PMS With  <br>HTML,CSS,JS ,Java and MYSQL</p>
+        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+          </div>
+          <a href="#" class="btn">See More</a>
+      
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    
+    <!--------------------------------------------------------Contact------------------------------------------------------>
+    <div id="contact">
+    <div class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title"> Contact Me</h1>
+            <p class="email"> <i class="fa-sharp fa-solid fa-paper-plane"></i>sujankumar282003@gmail.com</p>
+            <p class="number"><i class="fa-solid fa-phone"></i> +91 7702243659</p>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+
+          </div>
+          <div class="contact-right">
+            <form>  
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your email" required>
+<textarea name="message" rows="6" placeholder="Type your message" required></textarea>
+<button type="submit" class="btn btn2">submit</button>
+
+            </form>
+          </div>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="copyright">
+            <p>Copyright ©  Made with <i class="fa-solid fa-heart"></i> by Sujan </p>
+        </div>
+    </div>
+
+    
+    <script>
+var tablinks=document.getElementsByClassName("tab-links")
+var tabcontents=document.getElementsByClassName("tab-contents")
+function opentab(tabname){
+  for(tablink of tablinks){
+    tablink.classList.remove("active-link")
+  }
+  for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab")
+  }
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab");
+}
+    </script>
+<!------------------------------------------------------------Phone script-------------------------------->
+  <script>
+    var sidemeu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+      sidemeu.style.right ="0";
+    }
+    function closemenu(){
+      sidemeu.style.right ="-200px";
+    }
+    </script>
+   </body>
+</html>
